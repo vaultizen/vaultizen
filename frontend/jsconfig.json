@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
     "paths": {
       "@/*": ["./src/*"]
     }
